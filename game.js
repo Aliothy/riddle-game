@@ -16,7 +16,7 @@ const riddles = [
     { riddle: "Bene, ti sta piacendo il giro? te la ricordavi così la tua città?\n Rimaniamo sui giardini, a chi sono intitolati?", password: "perlasca" },
     { riddle: "E siamo arrivati al MART! Il gioiello di Rovereto, entra e fatti un giro sotto la cupola...\n ti ricordi per quale esame abbiamo studiato qui?", password: "maturità" },
     { riddle: "E qui alla tua destra la celeberrima Università di Rovereto, cos'è che insegnano? Scienze?", password: "cognitive" },
-    { riddle: "17! Finalmente! Avevi quest'età quando ci siamo conosciuti... e il fatto che io debba scrivere altri 8 indovinelli mi fa commuovere...\n ti ricordi i dolci che mi avevi fatto alla mia prima visita? (l'ho messo in dialetto trentino, plurale)", password: "spumini" },
+    { riddle: "17! Finalmente! Avevi quest'età quando ci siamo conosciuti... e il fatto che io debba scrivere altri 8 indovinelli mi fa commuovere...\n ti ricordi i dolci che mi avevi fatto alla mia prima visita? (l'ho messo in dialetto trentino, plurale)", password: "meringhe" },
     { riddle: "Piazza Rosmini! Che bellezza! Ti ricordi quando siamo andati lì al cinema, com'è che si chiama già?", password: "supercinema" },
     { riddle: "Un altro classico della cucina roveretana, la cotoletta, e chi la fa meglio del ...", password: "christian" },
     { riddle: "C'è un tipo in mezzo alla piazza, com'è già il suo nome in greco?", password: "poseidone" },
