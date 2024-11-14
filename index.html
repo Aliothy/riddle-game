@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24 anni non si compiono tutti i giorni</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Access screen -->
+    <div class="container" id="access-screen">
+        <h1>Inserisci password</h1>
+        <input type="text" id="access-code" placeholder="Enter code">
+        <button onclick="checkAccess()">Enter</button>
+        <p id="access-message"></p>
+    </div>
+
+    <!-- Start Screen -->
+    <div class="container" id="start-screen" style="display: none;">
+        <h1>Auguri amore mio!</h1>
+        <p>Come ben sai, oggi diventi grande, e quale miglior modo per celebrarlo?? Te lo dico io, con un bel giochino!!! Giusto per farti tornare un po' bambina!
+         Tra l'altro, ho controllato ed è una bella giornata oggi, quindi preparati e...</p>
+        <button onclick="startGame()">Partiamo 🚀</button>
+    </div>
+
+    <!-- Game Screen -->
+    <div class="container" id="game-screen" style="display: none;">
+        <h1 id="riddle-title">Riddle</h1>
+        <p id="riddle">Loading...</p>
+        <input type="text" id="password" placeholder="Inserisci la risposta amore">
+        <button onclick="checkAnswer()">La accendiamo?<br>(una sola parola e tutto minuscolo...)</button>
+        <p id="feedback"></p>
+    </div>
+
+    <!-- Explanation Screen -->
+    <div class="container" id="explanation-screen" style="display: none;">
+        <h1>Va bene! 🎉 </h1>
+        <p id="explanation">Loading...</p>
+        <button onclick="keepPlaying()">Avanti</button>
+    </div>
+
+    <!-- End Screen -->
+    <div class="container" id="end-screen" style="display: none;">
+        <h1>🎉 Congratulazioni! 🎉</h1>
+        <p>Bravissima amore mio! </p>
+        <p> Spero che con questo giochino sia riuscito a farti un po' riscoprire la città che tu ami e a rendere 
+            questo giorno almeno un pochino speciale!! Lo so che non è facile è che è tutto un po' così ma respira un po' d'aria pulita
+            e goditi la tua città con il sole!!</p>
+        <p>Quasi mi stavo dimenticando! Hai ancora un regalo da aprire amore mio!! Adesso puoi tornare a casa!!</p>    
+        <p> Ancora auguri amore!! </p>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
